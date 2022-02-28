@@ -1,8 +1,11 @@
 window.onload = function () {
-    const Hello = document.getElementById("Hello");
+    const email = document.getElementById("email");
+    const password = document.getElementById("password");
+    const login = document.getElementById("login");
 
-    Hello.addEventListener("click", function () {
-        console.log('a');
+    login.addEventListener("click", function () {
+        console.log('Email : '+ email.value);
+        console.log('Password : '+ password.value);
     });
 }
 
